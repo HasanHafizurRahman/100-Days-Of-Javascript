@@ -8,6 +8,7 @@ const longestWord = (str)=> {
   };
 
   strArr = str.split(" ");
+  strArr = strArr.sort();
   console.log(strArr);
 }
 
